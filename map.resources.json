@@ -1,0 +1,32 @@
+{
+  "css": {
+    "debug":[
+      "assets/css/app.scss"
+    ],
+    "release":[
+      "assets/css/app.css"
+    ]
+  },
+  "js":{
+    "release":[
+      "assets/js/app.min.js"
+    ],
+    "debug":{
+      "libs":[
+      ],
+      "core":[
+        "assets/js/project.js",
+        "assets/js/routes.js",
+        "assets/js/controllers/app.js",
+        "assets/js/controllers/header.js",
+        "assets/js/controllers/footer.js",
+        "assets/js/controllers/home.js",
+        "assets/js/directives/header.js",
+        "assets/js/directives/footer.js",
+        "assets/js/directives/slide.js",
+        "assets/js/directives/mmenu.js",
+        "assets/js/directives/timeout.js"
+      ]
+    }
+  }
+}
