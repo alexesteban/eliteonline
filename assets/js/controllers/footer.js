@@ -1,3 +1,3 @@
-amarillasCtrl.controller('footerCtrl', ['$scope', '$routeParams','$http',  function($scope, $routeParams,$http) {
+appCtrl.controller('footerCtrl', ['$scope', '$routeParams','$http',  function($scope, $routeParams,$http) {
 
   }]);

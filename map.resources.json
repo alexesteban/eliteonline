@@ -17,10 +17,10 @@
       "core":[
         "assets/js/project.js",
         "assets/js/routes.js",
-        "assets/js/controllers/app.js",
         "assets/js/controllers/header.js",
         "assets/js/controllers/footer.js",
         "assets/js/controllers/home.js",
+        "assets/js/controllers/empresa.js",
         "assets/js/directives/header.js",
         "assets/js/directives/footer.js",
         "assets/js/directives/slide.js",

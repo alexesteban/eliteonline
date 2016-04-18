@@ -1,3 +1,3 @@
-amarillasCtrl.controller('headerCtrl', ['$scope', '$routeParams',function($scope, $routeParams) {
+appCtrl.controller('headerCtrl', ['$scope', '$routeParams',function($scope, $routeParams) {
 
 }]);

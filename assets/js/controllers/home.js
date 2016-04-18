@@ -1,4 +1,4 @@
-amarillasCtrl.controller('homeCtrl', ['$scope', '$http',
+appCtrl.controller('homeCtrl', ['$scope', '$http',
 function ($scope, $http) {
 
 }]);

@@ -1,2 +1,2 @@
-var app = angular.module('app', [  'ngRoute',  'amarillasCtrl',  'ngCookies',  'ngMaterial']);
-var amarillasCtrl = angular.module('amarillasCtrl', ['ngCookies','ngMaterial','ngMessages','ngImgCrop']);
+var app = angular.module('app', [  'ngRoute',  'appCtrl',  'ngCookies',  'ngMaterial']);
+var appCtrl = angular.module('appCtrl', ['ngCookies','ngMaterial','ngMessages','ngImgCrop']);

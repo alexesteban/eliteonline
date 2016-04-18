@@ -9,3 +9,122 @@ a, a img {	border: 0;
 
 a:focus {	outline:0px;border: 0;
 }
+
+/*HEADER*/
+.header {
+	position: relative;
+	height: 115px;
+	margin: 1em 2em;
+}
+
+.header .logo{
+	width: 300px;
+	position: absolute;
+}
+
+.header .menu {
+	width:100%;
+	padding-left:330px;
+	margin:0;
+	list-style: none;
+	text-align: right;
+}
+
+.header .menu li {
+	display: inline-block;
+	padding:2em 1em;
+	font-weight: 500;
+}
+
+.header .menu li a{
+	color: #5a5a5e;
+}
+
+.header .menu li a:hover{
+	text-decoration: none;
+	color: #518fc8;
+}
+/* /HEADER */
+
+/*HOME*/
+/*BANNERS HOME*/
+.rslides .titulo {
+    font-size: 70px;
+		font-weight: bold;
+    position: absolute;
+		top: 35%;
+    left: 60%;
+		text-align: left;
+    color: #FFF;
+    z-index: 9;
+}
+.rslides .subtitulo {
+    font-size: 35px;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    color: #fff;
+    z-index: 9;
+}
+/*/BANNERS HOME*/
+
+.icons-home {
+	margin:3em 0;
+	overflow: hidden;
+}
+
+.icons-home p {
+	font-size:18px;
+	margin:0 1em;
+	line-height:1em;
+	color:#6e6c6d;
+}
+
+/*/HOME*/
+
+/*COMMON*/
+.section {
+	max-width: 1250px;
+	margin:0 auto;
+}
+
+h1 {
+	color:#052b38;
+	font-weight: lighter;
+}
+
+.bannerInterno img{
+	width:100%;
+}
+/*/COMMON*/
+
+/*FOOTER*/
+.footer{
+	background: #313131;
+	padding: 2em 0;
+	overflow: hidden;
+}
+.footer h3 {
+	color: #FFF;
+}
+.footer .opcionesFooter {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.footer .opcionesFooter li,.footer .opcionesFooter li a{
+	color: #fff;
+	font-size: 14px;
+}
+.footer .opcionesFooter li a:hover {
+	color: #518fc8;
+	text-decoration: none;
+}
+
+.copyright {
+	font-size:11px;
+	text-align:center;
+	color:#FFF;
+	margin-top: 2em;
+}
+/*/FOOTER*/
