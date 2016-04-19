@@ -21,10 +21,13 @@
         "assets/js/controllers/footer.js",
         "assets/js/controllers/home.js",
         "assets/js/controllers/empresa.js",
+        "assets/js/controllers/soluciones.js",
+        "assets/js/controllers/galeria.js",
         "assets/js/directives/header.js",
         "assets/js/directives/footer.js",
         "assets/js/directives/slide.js",
         "assets/js/directives/mmenu.js",
+        "assets/js/directives/gallery.js",
         "assets/js/directives/timeout.js"
       ]
     }

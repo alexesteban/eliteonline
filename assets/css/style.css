@@ -86,6 +86,7 @@ a:focus {	outline:0px;border: 0;
 .section {
 	max-width: 1250px;
 	margin:0 auto;
+	overflow: hidden;
 }
 
 h1 {
@@ -95,6 +96,14 @@ h1 {
 
 .bannerInterno img{
 	width:100%;
+}
+
+.sin-contenido {
+	text-align: center;
+	margin:3em 0;
+	color: silver;
+	font-size:45px;
+	font-weight: bold;
 }
 /*/COMMON*/
 
@@ -128,3 +137,74 @@ h1 {
 	margin-top: 2em;
 }
 /*/FOOTER*/
+
+/*EMPRESA*/
+.empresa {
+	margin: 4px 0;
+}
+
+.empresa .info {
+	margin:4em 0;
+	position:relative;
+}
+
+.empresa .info .icon {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.empresa .info .conent {
+	padding-left:120px;
+}
+
+.empresa .info .conent h1 {
+	font-size:28px;
+	font-weight:bold;
+	color: #1D8FC9;
+}
+
+.empresa .info .conent p {
+	font-size:16px;
+}
+/*/EMPRESA*/
+
+/*GALERIA*/
+
+
+.gallery {
+	margin: 2em 0;
+}
+
+
+
+.gallery
+.image {
+	width: 19%;
+    display: inline-block;
+    padding: 1em 0;
+    border: 1px solid #E0E0E0;
+    margin: .2em;
+    border-radius: 8px;
+    position: relative;
+}
+
+.gallery
+.image
+.Delete {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #CC4C4C;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.gallery
+.image img {
+	width: 100%;
+}
+
+/*/GALERIA*/
