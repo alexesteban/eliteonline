@@ -208,3 +208,39 @@ h1 {
 }
 
 /*/GALERIA*/
+
+
+/*CONTACTO*/
+.form-contact{
+	margin:3em 1em;
+	overflow: hidden;
+}
+
+.form-contact input[type="text"],
+.form-contact textarea {
+	box-shadow:none;
+	border-radius: 0;
+	padding:2em 1em;
+}
+
+.form-contact .row-fluid {
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+.form-contact span{
+	color:#777;
+}
+
+.form-contact button {
+	background: #6D6D6D;
+	border:0;
+	padding:.5em 2em;
+	color:#FFF;
+}
+
+.form-contact button:hover {
+	background: #337ab7;
+}
+
+/*/CONTACTO*/
